@@ -25,11 +25,11 @@ head {
 header {
     background: #fff8f3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
-    background-repeat: no-repeat, repeat-y;
+    background-repeat: no-repeat;
     background-position: bottom right, left;
     max-height: 850px;
     max-width: 2000px;
-    margin-left: 200px;
+    
 
 }
 
@@ -181,11 +181,36 @@ section {
 }
 
 .resume .description {
-
+    font-size: 18px;
 
 }
 
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact Styles */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"],  textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 30px 18px;
+}
+
+.contact a{
+    text-decoration: none;
+    margin-right: 30px;
 }
