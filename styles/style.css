@@ -44,17 +44,17 @@ nav ul {
 }
 /* banner tile */
 /*  */
-.banner,p{
+.banner{
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-.banner title{
+.banner-title{
 font-size: 85px;
 font-weight: 700;
 margin-bottom: 5px;
 }
-.banner sub title{
+.banner-sub-title{
     font-size: 45px;
     font-weight: 500;
     margin-bottom: 20px;
